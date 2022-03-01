@@ -1,0 +1,15 @@
+[Unit]
+Description=Pinger service
+After=network.target network-online.target remote-fs.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=forking
+User=pinger
+Group=pinger
+EnvironmentFile=-/etc/default/pinger
+ExecStart=/usr/local/bin/pinger.sh
+ExecStop=/usr/local/bin/stop-pinger.sh
+LimitNOFILE=65536
