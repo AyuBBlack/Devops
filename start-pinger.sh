@@ -1,10 +1,10 @@
 #!/bin/bash
 if [ -f $/run/pinger/pinger.pid ] 
 then 
-    exec ./stop-pinger.sh
-    exec ./pinger.sh 2>> /var/log/pinger/pinger.log &
-    echo $! > /run/pinger/pinger.pid
+   /usr/local/bin/stop-pinger.sh
+   /usr/local/bin/pinger.sh >> /var/log/pinger/pinger.log &
+   echo $! > /run/pinger/pinger.pid
 else
-    exec ./pinger.sh 2>> /var/log/pinger/pinger.log &
-    echo $! > /run/pinger/pinger.pid
+   /usr/local/bin/pinger.sh >> /var/log/pinger/pinger.log &
+   echo $! > /run/pinger/pinger.pid
 fi
