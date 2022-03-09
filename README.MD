@@ -5,15 +5,15 @@ ___
 
 **Linux files Homeworks on GIT**
 
-* Homework 3 | A service that records the date in logs.
-[Start-Pinger.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/start-pinger.sh)
-[Stop-Pinger.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/stop-pinger.sh)
-[Pinger.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/pinger.sh)
-[Pinger.service](https://github.com/AyuBBlack/Devops/blob/main/Linux/pinger.service)
-* Homework 4 | A calculator that counts expressions from files
-[Cat.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/cat.sh)
-* Homework 5 | The script cleans logs when there is less than 60% of free space left in the home directory.
-[Clean.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/clean.sh)
+* __Homework 3__ | A service that records the date in logs.
+  * [Start-Pinger.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/start-pinger.sh)
+  * [Stop-Pinger.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/stop-pinger.sh)
+  * [Pinger.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/pinger.sh)
+  * [Pinger.service](https://github.com/AyuBBlack/Devops/blob/main/Linux/pinger.service)
+* __Homework 4__ | A calculator that counts expressions from files
+  * [Cat.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/cat.sh)
+* __Homework 5__ | The script cleans logs when there is less than 60% of free space left in the home directory.
+  * [Clean.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/clean.sh)
 
 ___
 
