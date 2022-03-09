@@ -15,6 +15,8 @@ ___
 * Homework 5 | The script cleans logs when there is less than 60% of free space left in the home directory.
 [Clean.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/clean.sh)
 
+___
+
 Linux **PDF** Homeworks on GIT
 
 * [HomeWork_1](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM_1.pdf)
