@@ -17,11 +17,11 @@ ___
 
 ___
 
-Linux **PDF** Homeworks on GIT
+Linux **MD** Homeworks on GIT
 
-* [HomeWork_1](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM_1.pdf)
-* [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM-2.pdf)
-* [HomeWork_3](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM-3.pdf)
-* [HomeWork_4](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM-4.pdf)
-* [HomeWork_5](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM-5.pdf)
+* [HomeWork_1](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM_1.md)
+* [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM-2.md)
+* [HomeWork_3](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM-3.md)
+* [HomeWork_4](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM-4.md)
+* [HomeWork_5](https://github.com/AyuBBlack/Devops/blob/main/HomeWorks/HM-5.md)
 
