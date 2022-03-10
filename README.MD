@@ -20,8 +20,9 @@ ___
 Linux **MD** Homeworks on GIT
 
 * [HomeWork_1](https://github.com/AyuBBlack/Devops/blob/main/Linux/HomeWorks/HM_1.md)
-* [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/Linux/HomeWorks/HM-2.md)
-* [HomeWork_3](https://github.com/AyuBBlack/Devops/blob/main/Linux/HomeWorks/HM-3.md)
+* [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/Linux/HomeWorks/HM_2.md)
+* [HomeWork_3](https://github.com/AyuBBlack/Devops/blob/main/Linux/HomeWorks/HM_3.md)
 * [HomeWork_4](https://github.com/AyuBBlack/Devops/blob/main/Linux/HomeWorks/HM-4.md)
 * [HomeWork_5](https://github.com/AyuBBlack/Devops/blob/main/Linux/HomeWorks/HM-5.md)
 
+**.Net soon...**
