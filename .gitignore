@@ -3,3 +3,7 @@
 *.bak
 *.ini
 /.vscode
+workspace
+DotNet/.vscode/
+workspace.code-workspace
+
