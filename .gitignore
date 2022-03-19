@@ -2,4 +2,4 @@
 *.out
 *.bak
 *.ini
-.vscode
+/.vscode
