@@ -6,5 +6,6 @@
 /.vscode
 workspace
 DotNet/.vscode/
+DotNet/WebApp/obj/Debug/
 workspace.code-workspace
 
