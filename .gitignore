@@ -1,4 +1,5 @@
 *.log
 *.out
 *.bak
-\DotNet\.vscode
+*.ini
+.vscode
