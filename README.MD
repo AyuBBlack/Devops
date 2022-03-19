@@ -25,4 +25,16 @@ Linux **MD** Homeworks on GIT
 * [HomeWork_4](https://github.com/AyuBBlack/Devops/blob/main/Linux/HomeWorks/HM_4.md)
 * [HomeWork_5](https://github.com/AyuBBlack/Devops/blob/main/Linux/HomeWorks/HM_5.md)
 
-**.Net soon...**
+___
+
+**.Net files Homeworks on GIT**
+* __Homework 1__ | Controller for text reversal.
+[WebFormController.cs](https://github.com/AyuBBlack/Devops/blob/main/DotNet/WebApp/Controllers/WebFormController.cs)
+* __Homework 2__ | Input form
+[Index.cshtml](https://github.com/AyuBBlack/Devops/blob/main/DotNet/WebApp/Views/WebForm/Index.cshtml)
+
+___
+
+**.Net **MD** Homeworks on GIT**
+
+* [HomeWork_1-2](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_1-2.md)
