@@ -2,6 +2,7 @@
 *.out
 *.bak
 *.ini
+*.cache
 /.vscode
 workspace
 DotNet/.vscode/
