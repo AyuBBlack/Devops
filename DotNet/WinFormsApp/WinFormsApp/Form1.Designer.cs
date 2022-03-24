@@ -28,61 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.submit = new System.Windows.Forms.Button();
+            this.InputBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.input = new System.Windows.Forms.TextBox();
-            this.result = new System.Windows.Forms.TextBox();
+            this.buttonReverse = new System.Windows.Forms.Button();
+            this.ResultBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // submit
+            // InputBox
             // 
-            this.submit.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.submit.Location = new System.Drawing.Point(429, 172);
-            this.submit.Name = "submit";
-            this.submit.Size = new System.Drawing.Size(250, 47);
-            this.submit.TabIndex = 0;
-            this.submit.Text = "Развернуть";
-            this.submit.UseVisualStyleBackColor = true;
-            this.submit.Click += new System.EventHandler(this.Button1_ClickAsync);
+            this.InputBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.InputBox.Font = new System.Drawing.Font("Stencil", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.InputBox.Location = new System.Drawing.Point(305, 93);
+            this.InputBox.Name = "InputBox";
+            this.InputBox.Size = new System.Drawing.Size(518, 47);
+            this.InputBox.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(173, 128);
+            this.label1.Font = new System.Drawing.Font("Moonstar", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(39, 92);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(220, 41);
+            this.label1.Size = new System.Drawing.Size(255, 47);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Введите текст :";
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
+            this.label1.Text = "Enter the text";
             // 
-            // input
+            // buttonReverse
             // 
-            this.input.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.input.Location = new System.Drawing.Point(173, 172);
-            this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(250, 47);
-            this.input.TabIndex = 2;
-            this.input.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.buttonReverse.Font = new System.Drawing.Font("Moonstar", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonReverse.Location = new System.Drawing.Point(845, 92);
+            this.buttonReverse.Name = "buttonReverse";
+            this.buttonReverse.Size = new System.Drawing.Size(199, 48);
+            this.buttonReverse.TabIndex = 2;
+            this.buttonReverse.Text = "Reverse";
+            this.buttonReverse.UseVisualStyleBackColor = true;
+            this.buttonReverse.Click += new System.EventHandler(this.buttonReverse_Click);
             // 
-            // result
+            // ResultBox
             // 
-            this.result.Enabled = false;
-            this.result.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.result.Location = new System.Drawing.Point(173, 255);
-            this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(506, 47);
-            this.result.TabIndex = 3;
+            this.ResultBox.Enabled = false;
+            this.ResultBox.Font = new System.Drawing.Font("Stencil", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ResultBox.Location = new System.Drawing.Point(305, 187);
+            this.ResultBox.Name = "ResultBox";
+            this.ResultBox.Size = new System.Drawing.Size(518, 47);
+            this.ResultBox.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Moonstar", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(39, 186);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(260, 47);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Reversed Text";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.result);
-            this.Controls.Add(this.input);
+            this.ClientSize = new System.Drawing.Size(1072, 503);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.ResultBox);
+            this.Controls.Add(this.buttonReverse);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.submit);
+            this.Controls.Add(this.InputBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -92,9 +103,10 @@
 
         #endregion
 
-        private Button submit;
+        private TextBox InputBox;
         private Label label1;
-        private TextBox input;
-        private TextBox result;
+        private Button buttonReverse;
+        private TextBox ResultBox;
+        private Label label2;
     }
 }

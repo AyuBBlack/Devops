@@ -2,6 +2,6 @@
 {
     public class FuncRevers
     {
-        public string ReverseResult { get; set; }  
+        public string? ReverseResult { get; set; }  
     }
 }

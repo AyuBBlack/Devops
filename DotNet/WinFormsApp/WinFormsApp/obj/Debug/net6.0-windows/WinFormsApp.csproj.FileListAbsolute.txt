@@ -15,3 +15,5 @@ C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\WinFormsApp\WinFormsApp\obj\Debug\n
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\WinFormsApp\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.pdb
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\WinFormsApp\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.genruntimeconfig.cache
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\WinFormsApp\WinFormsApp\obj\Debug\net6.0-windows\ref\WinFormsApp.dll
+C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\WinFormsApp\WinFormsApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\WinFormsApp\WinFormsApp\obj\Debug\net6.0-windows\WinFormsApp.csproj.CopyComplete
