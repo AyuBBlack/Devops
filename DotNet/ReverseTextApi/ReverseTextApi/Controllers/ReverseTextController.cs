@@ -15,7 +15,6 @@ namespace ReverseTextApi.Controllers
             ReverseResult = Reverse(text)
             };
         }
-
         private static string Reverse(string s)
         {
             char[] charArray = s.ToCharArray();
