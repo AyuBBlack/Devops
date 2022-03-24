@@ -39,6 +39,6 @@ ___
 
 **.Net **MD** Homeworks on GIT**
 
-* [HomeWork_1](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_1-2.md)
+* [HomeWork_1](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_1.md)
 
 * [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_2.md)
