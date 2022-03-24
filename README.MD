@@ -29,12 +29,16 @@ ___
 
 **.Net files Homeworks on GIT**
 * __Homework 1__ | Controller for text reversal.
-[WebFormController.cs](https://github.com/AyuBBlack/Devops/blob/main/DotNet/WebApp/Controllers/WebFormController.cs)
-* __Homework 2__ | Input form
-[Index.cshtml](https://github.com/AyuBBlack/Devops/blob/main/DotNet/WebApp/Views/WebForm/Index.cshtml)
+  * [ReverseTextController.cs](https://github.com/AyuBBlack/Devops/blob/main/DotNet/ReverseTextApi/ReverseTextApi/Controllers/ReverseTextController.cs)
+  * [FuncRevers.cs](https://github.com/AyuBBlack/Devops/blob/main/DotNet/ReverseTextApi/ReverseTextApi/Models/FuncRevers.cs)
+
+* __Homework 2__ | WinForm
+  * [Form1.cs](https://github.com/AyuBBlack/Devops/blob/main/DotNet/WinFormsApp/WinFormsApp/Form1.cs)
 
 ___
 
 **.Net **MD** Homeworks on GIT**
 
-* [HomeWork_1-2](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_1-2.md)
+* [HomeWork_1](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_1-2.md)
+
+* [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_2.md)
