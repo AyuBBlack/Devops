@@ -10,7 +10,7 @@ namespace WinFormsApp
             client = new HttpClient();
         }
 
-        private void buttonReverse_Click(object sender, EventArgs e)
+        private void ButtonReverse_Click(object sender, EventArgs e)
         {
             var text = InputBox.Text;
 
