@@ -6,14 +6,14 @@ ___
 **Linux files Homeworks on GIT**
 
 * __Homework 3__ | A service that records the date in logs.
-  * [Start-Pinger.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/start-pinger.sh)
-  * [Stop-Pinger.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/stop-pinger.sh)
-  * [Pinger.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/pinger.sh)
+  * [Start-Pinger](https://github.com/AyuBBlack/Devops/blob/main/Linux/start-pinger.sh)
+  * [Stop-Pinger](https://github.com/AyuBBlack/Devops/blob/main/Linux/stop-pinger.sh)
+  * [Pinger](https://github.com/AyuBBlack/Devops/blob/main/Linux/pinger.sh)
   * [Pinger.service](https://github.com/AyuBBlack/Devops/blob/main/Linux/pinger.service)
 * __Homework 4__ | A calculator that counts expressions from files
-  * [Cat.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/cat.sh)
+  * [Cat](https://github.com/AyuBBlack/Devops/blob/main/Linux/cat.sh)
 * __Homework 5__ | The script cleans logs when there is less than 60% of free space left in the home directory.
-  * [Clean.sh](https://github.com/AyuBBlack/Devops/blob/main/Linux/clean.sh)
+  * [Clean](https://github.com/AyuBBlack/Devops/blob/main/Linux/clean.sh)
 
 ___
 
@@ -30,11 +30,17 @@ ___
 **.Net files Homeworks on GIT**
 * __Homework 1__ | Controller for text reversal.
   * [ReverseTextController.cs](https://github.com/AyuBBlack/Devops/blob/main/DotNet/ReverseTextApi/ReverseTextApi/Controllers/ReverseTextController.cs)
-  * [FuncRevers.cs](https://github.com/AyuBBlack/Devops/blob/main/DotNet/ReverseTextApi/ReverseTextApi/Models/FuncRevers.cs)
+  * [FuncRevers](https://github.com/AyuBBlack/Devops/blob/main/DotNet/ReverseTextApi/ReverseTextApi/Models/FuncRevers.cs)
 
 * __Homework 2__ | WinForm
-  * [Form1.cs](https://github.com/AyuBBlack/Devops/blob/main/DotNet/WinFormsApp/WinFormsApp/Form1.cs)
+  * [Form1](https://github.com/AyuBBlack/Devops/blob/main/DotNet/WinFormsApp/WinFormsApp/Form1.cs)
 
+* __Homework 3__ | EntityFrameWork
+  * [Controller](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle/SqlBundle/Controllers/BundleRun.cs)
+  * Models
+    * [BundleRepo](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle/SqlBundle/Models/BundleRepo.cs)
+    * [History](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle/SqlBundle/Models/History.cs)  
+    * [SqlContext](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle/SqlBundle/Models/SqlContext.cs)    
 ___
 
 **.Net **MD** Homeworks on GIT**
@@ -42,3 +48,5 @@ ___
 * [HomeWork_1](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_1.md)
 
 * [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_2.md)
+
+* [HomeWork_3](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_3.md)
