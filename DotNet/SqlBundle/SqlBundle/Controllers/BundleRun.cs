@@ -38,6 +38,7 @@ namespace SqlBundle.Controllers
         [HttpPost("/Update")] //Обновление записи 
         public void Update([FromBody] History updateTables)
         {
+            updateTables.Date = DateTime.Now.ToString("dd/MM/yy");
             updateTables.Results = Reverse(updateTables.Parametrs);
             bundleRep.Update(updateTables);
         }
