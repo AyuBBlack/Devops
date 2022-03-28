@@ -61,9 +61,9 @@ namespace SqlBundle.Controllers
      bundleRep.Update(tables);
  }*/
 
-/*        [HttpPost("/Create")]
-        public void Create([FromBody] History tables)
-        {
-            tables.Results = Reverse(tables.Parametrs);
-            bundleRep.Create(tables);
-        }*/
+/* [HttpPost("/Create")]
+ public void Create([FromBody] History tables)
+ {
+     tables.Results = Reverse(tables.Parametrs);
+     bundleRep.Create(tables);
+ }*/
