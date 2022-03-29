@@ -1,7 +1,7 @@
 ### Repository with __Innopolis__ homework.
 ___
 
-#### Homework consists of HM-1 to HM-5 __Linux__ assignments.
+#### Homework consists of HM-1 to HM-5 assignments.
 
 **Linux files Homeworks on GIT**
 
@@ -40,7 +40,9 @@ ___
   * Models
     * [BundleRepo](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle/SqlBundle/Models/BundleRepo.cs)
     * [History](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle/SqlBundle/Models/History.cs)  
-    * [SqlContext](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle/SqlBundle/Models/SqlContext.cs)    
+    * [SqlContext](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle/SqlBundle/Models/SqlContext.cs)  
+* __Homework 4__ | Deployment to Docker
+  * [Dockerfile](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle_Docker/SqlBundle/Dockerfile)
 ___
 
 **.Net **MD** Homeworks on GIT**
@@ -50,3 +52,4 @@ ___
 * [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_2.md)
 
 * [HomeWork_3](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_3.md)
+* [HomeWork_4](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_4.md)
