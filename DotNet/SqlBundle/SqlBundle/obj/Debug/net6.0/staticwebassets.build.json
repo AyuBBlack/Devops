@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D0gXeecQGHvsyOW4oJk9CvtYVSq6pQe4a86ouhN0LRk=",
+  "Source": "SqlBundle",
+  "BasePath": "_content/SqlBundle",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
