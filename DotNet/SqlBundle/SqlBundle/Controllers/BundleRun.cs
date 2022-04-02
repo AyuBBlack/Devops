@@ -29,10 +29,17 @@ namespace SqlBundle.Controllers
             History tables = new History();
             tables.Date = DateTime.Now.ToString("dd/MM/yy");
             tables.Parametrs = param;
-            string reverse = Reverse(param);
-            tables.Results = reverse;
-            bundleRep.Create(tables);
-            return reverse;
+            if (param != null)
+            {
+                string reverse = Reverse(param);
+                tables.Results = reverse;
+                bundleRep.Create(tables);
+                return reverse;
+            }
+            else
+            {
+               return "Введите параметр";
+            }
         }
 
         [HttpPost("/Update")] //Обновление записи 
@@ -51,19 +58,3 @@ namespace SqlBundle.Controllers
 }
 
 
-/* [HttpPost(Name = "Text")]
- public void TextReverse([FromBody] string parameter, string id)
- {
-     Tables tables = new Tables();
-     tables.Id = Int32.Parse(id);
-     tables.Parametrs = parameter;
-     tables.Results = Reverse(parameter);
-     bundleRep.Update(tables);
- }*/
-
-/* [HttpPost("/Create")]
- public void Create([FromBody] History tables)
- {
-     tables.Results = Reverse(tables.Parametrs);
-     bundleRep.Create(tables);
- }*/

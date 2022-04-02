@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  postgresql:
+    image: ${DOCKER_REGISTRY-}postgres
+    ports: 
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: "DB"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "123"
+
+  sqlbundle:
+   image: ${DOCKER_REGISTRY-}sqlbundle
+   ports: 
+    - "8080:80"
+   build:
+      context: .
+      dockerfile: SqlBundle/Dockerfile
+

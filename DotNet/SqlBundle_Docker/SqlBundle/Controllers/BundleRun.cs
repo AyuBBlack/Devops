@@ -29,10 +29,17 @@ namespace SqlBundle.Controllers
             History tables = new History();
             tables.Date = DateTime.Now.ToString("dd/MM/yy");
             tables.Parametrs = param;
-            string reverse = Reverse(param);
-            tables.Results = reverse;
-            bundleRep.Create(tables);
-            return reverse;
+            if (param != null)
+            {
+                string reverse = Reverse(param);
+                tables.Results = reverse;
+                bundleRep.Create(tables);
+                return reverse;
+            }
+            else
+            {
+                return "Введите параметр";
+            }
         }
 
         [HttpPost("/Update")] //Обновление записи 
