@@ -5,7 +5,6 @@ C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\appsetti
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\SqlBundle.exe
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\SqlBundle.dll
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\Microsoft.EntityFrameworkCore.dll
-C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
@@ -14,3 +13,4 @@ C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\SqlBundl
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll

@@ -84,3 +84,40 @@ docker image tag sqlbundle:latest ayub95/repo:sqlbundle
 
 И также поднял контейнер приложения, после чего у любого человека был доступ к записи в базу данных своих реверсированных слов если знать, что отправлять)
 
+
+Теперь, что касатеся docker compose.
+
+Я дописал еще один скрипт модуль для миграции базы. Ибо внутри докер compose базу скрипт описанный выше не мигрирурет и его надо мигрировать вручную.
+
+Для решения этой проблемы был написан модуль PrebDB
+
+```
+using Microsoft.EntityFrameworkCore;
+
+namespace SqlBundle.Models
+{
+    public static class PrebDB
+    {
+        public static WebApplicationBuilder PopulateDB(this WebApplicationBuilder builder)
+        {
+            using var serviceProvider = builder.Services.BuildServiceProvider(); //Возращает сервис провайдер который реализует интерфейс
+
+            var context = serviceProvider.GetService<SqlContext>();
+
+            if (context == null)
+            {
+               throw new Exception("Context не создан");
+            }
+            context.Database.Migrate();
+
+            return builder;
+        }
+    }
+}
+```
+
+Данный модуль позволяет нам мигруровать базу с помошью метода
+
+```
+context.Database.Migrate();
+```

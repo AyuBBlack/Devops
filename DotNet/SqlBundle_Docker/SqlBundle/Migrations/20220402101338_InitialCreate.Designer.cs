@@ -11,7 +11,7 @@ using SqlBundle.Models;
 namespace SqlBundle.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    [Migration("20220326185030_InitialCreate")]
+    [Migration("20220402101338_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,7 +23,7 @@ namespace SqlBundle.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("SqlBundle.Models.Tables", b =>
+            modelBuilder.Entity("SqlBundle.Models.History", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
