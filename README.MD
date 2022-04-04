@@ -43,13 +43,15 @@ ___
     * [SqlContext](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle/SqlBundle/Models/SqlContext.cs)  
 * __Homework 4__ | Deployment to Docker
   * [Dockerfile](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle_Docker/SqlBundle/Dockerfile)
+
+* __Homework 5__ | Deployment to Docker
+  * [Logging](https://github.com/AyuBBlack/Devops/tree/main/DotNet/SqlBundle_Custom_Logger/SqlBundle/Logging
 ___
 
 **.Net **MD** Homeworks on GIT**
 
 * [HomeWork_1](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_1.md)
-
 * [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_2.md)
-
 * [HomeWork_3](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_3.md)
 * [HomeWork_4](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_4.md)
+* [HomeWork_5](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_5.md)
