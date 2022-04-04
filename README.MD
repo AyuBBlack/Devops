@@ -45,7 +45,7 @@ ___
   * [Dockerfile](https://github.com/AyuBBlack/Devops/blob/main/DotNet/SqlBundle_Docker/SqlBundle/Dockerfile)
 
 * __Homework 5__ | Deployment to Docker
-  * [Logging](https://github.com/AyuBBlack/Devops/tree/main/DotNet/SqlBundle_Custom_Logger/SqlBundle/Logging
+  * [Logging](https://github.com/AyuBBlack/Devops/tree/main/DotNet/SqlBundle_Custom_Logger/SqlBundle/Logging)
 ___
 
 **.Net **MD** Homeworks on GIT**
