@@ -23,7 +23,7 @@ namespace SqlBundle.Controllers
             return new string(charArray);
         }
 
-        [HttpGet("/Create")] //Создание записи в БД
+        [HttpPost("/Create")] //Создание записи в БД
         public string Get(string param)
         {
             History tables = new History();
@@ -42,7 +42,7 @@ namespace SqlBundle.Controllers
             }
         }
 
-        [HttpPost("/Update")] //Обновление записи 
+        [HttpPut("/Update")] //Обновление записи 
         public void Update([FromBody] History updateTables)
         {
             updateTables.Date = DateTime.Now.ToString("dd/MM/yy");

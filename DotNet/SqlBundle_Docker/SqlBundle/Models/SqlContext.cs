@@ -6,8 +6,9 @@ namespace SqlBundle.Models
         public SqlContext(DbContextOptions<SqlContext> options)
     : base(options)
         {
+
         }
         //Cвязываем таблицу tables.cs с таблицей которую создастся в базе 
-        public DbSet<History> Tables { get; set; } = null!;
+        public DbSet<History> Tables { get; set; } = null;
     }
 }

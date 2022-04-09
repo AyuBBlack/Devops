@@ -12,11 +12,12 @@ namespace SqlBundle.Models
 
             if (context == null)
             {
-               throw new Exception("Context не создан");
+                throw new Exception("Context не создан");
             }
-            context.Database.Migrate();
-
+            context.Database.EnsureCreated();
             return builder;
+/*            context.Database.Migrate();
+            return builder;*/
         }
     }
 }

@@ -11,11 +11,11 @@ builder.Services.AddDbContext<SqlContext>(opt =>
 {
     var config = builder.Configuration;
 
-    var server   = config["DBserver"] ?? "postgresql";
+    var server   = config["DBserver"] ?? "178.154.204.217";
     var port     = config["DBport"] ?? "5432";
-    var dbName   = config["DBname"] ?? "DB";
+    var dbName   = config["DBname"] ?? "Bundle";
     var user     = config["DBuser"] ?? "postgres";
-    var password = config["DBPassword"] ?? "123";
+    var password = config["DBPassword"] ?? "root";
 
     var conectionString = $"Host={server};Port={port};Database={dbName};Username={user};Password={password}";
     opt.UseNpgsql(conectionString);

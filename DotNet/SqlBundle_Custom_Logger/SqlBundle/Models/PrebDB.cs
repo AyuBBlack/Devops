@@ -15,7 +15,6 @@ namespace SqlBundle.Models
                throw new Exception("Context не создан");
             }
             context.Database.Migrate();
-
             return builder;
         }
     }

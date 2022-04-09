@@ -2,6 +2,6 @@
 {
     public class DbLoggerConfiguration
     {
-        public string DbConnectionString { get; set; }
+        public string DbconnectionString { get; set; }
     }
 }

@@ -11,8 +11,8 @@ using SqlBundle.Models;
 namespace SqlBundle.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    [Migration("20220402101338_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20220404163043_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,20 +32,36 @@ namespace SqlBundle.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Date")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Parametrs")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Results")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
                     b.ToTable("Tables");
+                });
+
+            modelBuilder.Entity("SqlBundle.Models.HistoryLogger", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Date")
+                        .HasColumnType("text");
+
+                    b.Property<string>("StateAndExeption")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LogHistories");
                 });
 #pragma warning restore 612, 618
         }

@@ -799,3 +799,6 @@ C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Custom_Logger\SqlBundle\o
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Custom_Logger\SqlBundle\obj\Debug\net6.0\SqlBundle.pdb
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Custom_Logger\SqlBundle\obj\Debug\net6.0\SqlBundle.genruntimeconfig.cache
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Custom_Logger\SqlBundle\obj\Debug\net6.0\ref\SqlBundle.dll
+C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Custom_Logger\SqlBundle\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Custom_Logger\SqlBundle\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Custom_Logger\SqlBundle\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll

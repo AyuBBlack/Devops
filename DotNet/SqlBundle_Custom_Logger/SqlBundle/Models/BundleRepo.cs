@@ -9,7 +9,11 @@
             Context.Tables.Add(tables);
             Context.SaveChanges();
         }
-
+        public void CreateLog(HistoryLogger LogHis) //Создание таблицы
+        {
+            Context.LogHistories.Add(LogHis);
+            Context.SaveChanges();
+        }
         public BundleRepo(SqlContext context)
         {
             Context = context;

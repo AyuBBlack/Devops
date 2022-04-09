@@ -18,17 +18,13 @@
         {
             return Context.Tables;
         }
-        public History Get(int Id) 
-        {
-            return Context.Tables.Find(Id); //Поиск id в таблице
-        }
+        public History Get(int Id) => Context.Tables.Find(Id); //Поиск id в таблице
         public void Update(History updatetables) //Обновление тело таблицы
         {
             History curretTables   = Get(updatetables.Id);
             curretTables.Date      = updatetables.Date;
             curretTables.Parametrs = updatetables.Parametrs;
             curretTables.Results   = updatetables.Results;
-
             Context.Tables.Update(curretTables);
             Context.SaveChanges();
         }

@@ -14,3 +14,4 @@ C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\obj\Debug\docker-c
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\obj\Debug\docker-compose.dcproj.CopyComplete
 C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Docker\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ayub_Black\DevOps\GIT\Devops\DotNet\SqlBundle_Custom_Logger\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

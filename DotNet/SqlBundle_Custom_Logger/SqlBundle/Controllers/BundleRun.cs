@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SqlBundle.Models;
-using SqlBundle.Logging;
+
 
 namespace SqlBundle.Controllers
 
