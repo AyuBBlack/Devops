@@ -9,4 +9,5 @@ workspace
 DotNet/.vscode/
 DotNet/WebApp/obj/Debug/
 workspace.code-workspace
+DotNet/SqlBundle_Docker/.vs/SqlBundle/v17/
 
