@@ -39,7 +39,6 @@ namespace SqlBundle.Logging
             _loggerName = loggerName;
             _config = config;
         }
-
         IDisposable ILogger.BeginScope<TState>(TState state) => default;
 
         bool ILogger.IsEnabled(LogLevel logLevel) => true;
@@ -51,10 +50,38 @@ namespace SqlBundle.Logging
             Exception exception,
             Func<TState, Exception, string> formatter)
         {
-            throw new NotImplementedException();
+           //Console.WriteLine(formatter(state, exception));
+            string fileName = Path.Combine(Environment.CurrentDirectory, "output.txt");
+
+            //Создаем пустой файл
+            StreamWriter swBegin = new StreamWriter(fileName);
+            swBegin.WriteLine("");
+            swBegin.Close();
+
+            //Дозаписываем файл
+            StreamWriter sw = new StreamWriter(fileName, true);;
+            sw.WriteLine(formatter(state, exception));
+            sw.Close();
+
+            //Для консоли
+/*            try
+            {
+                StreamWriter sw = new StreamWriter(fileName);
+                sw.WriteLine(formatter(state, exception));
+                sw.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Executing finally block.");
+            }*/
         }
     }
 }
+
 
 ```
 
@@ -84,18 +111,44 @@ namespace SqlBundle.Logging
 
 4. После чего нужно реализовать класс **DbLoggerExtensions**, в котором логер регистрируется.
 ```
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.Extensions.Logging.Configuration;
+
+
 namespace SqlBundle.Logging
 {
     public static class DbLoggerExtensions
     {
-        public static ILoggingBuilder AddDbLogger(this ILoggingBuilder builder)
+        public static ILoggingBuilder AddDbLogger(this ILoggingBuilder builder, Action<DbLoggerConfiguration> configure)
         {
+            //Подтягивает конфиг
+            builder.AddConfiguration(); 
+            //Добавляем наш провайдер. Дискриптор создается только если он не существует. 
+            builder.Services.TryAddEnumerable(
+                ServiceDescriptor.Singleton<ILoggerProvider, DbLoggerProvider>());
+            
+            //Регистрация конфига
+            LoggerProviderOptions.RegisterProviderOptions<DbLoggerConfiguration, DbLoggerProvider>(builder.Services);
+
+            builder.Services.Configure(configure);
+
             return builder;
         }
     }
 }
+
 ```
 Далее в programm добавляем наш билдер.
 
-```builder.Logging.AddDbLogger();```
+```
+builder.Logging.ClearProviders()
+    .AddDbLogger(configure => { });   
+```
 
+Проверил всё, файл в папку с проектом записывается:
+
+```
+Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Date", t."Parametrs", t."Results"
+FROM "Tables" AS t
+```
