@@ -135,5 +135,5 @@ Cleaning up project directory and file based variables
 00:00
 Job succeeded
 ```
-? 
+?  
 [Ссылка на мой GitLab](https://gitlab.com/AyuBBlack/Devops)
