@@ -1,0 +1,4 @@
+
+Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Date", t."Parametrs", t."Results"
+FROM "Tables" AS t
