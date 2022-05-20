@@ -54,9 +54,6 @@ ___
 * [HomeWork_2](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_2.md)
 * [HomeWork_3](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_3.md)
 * [HomeWork_4](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_4.md)
-<<<<<<< HEAD
-* [HomeWork_5](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_5.md)
-=======
 * [HomeWork_5](https://github.com/AyuBBlack/Devops/blob/main/DotNet/HomeWorks/HW_5.md)
 
 **CICD **MD** Homeworks on GIT**
@@ -68,4 +65,4 @@ ___
 * [HomeWork_5](https://github.com/AyuBBlack/Devops/blob/main/CICD/HW_5.MD)
 * [HomeWork_6](https://github.com/AyuBBlack/Devops/blob/main/CICD/HW_6.MD)
 * [HomeWork_7](https://github.com/AyuBBlack/Devops/blob/main/CICD/HW_7.MD)
->>>>>>> main-too
+
