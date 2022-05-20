@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "ignored": "true",
+      "suggestion": "true",
+      "type": "mssql",
+      "connectionId": ""
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "postgresql1": {
+      "type": "postgresql",
+      "connectionId": "postgresql"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9D/C6kHcm0+DrKDe2sayXAAAAAACAAAAAAAQZgAAAAEAACAAAAD9IlPUXFU/gKdhc2nrmdh7DSK+ybeVuHh3BlI1An4gigAAAAAOgAAAAAIAACAAAAAQAFHYLvy/ICvSrmiVWVkApRaSiQwTaR75Y8TJAU9r+SAAAAB/E01L4ZbM3zpKypb4ebPd/nUSR+yIxE57SYPL1chjB0AAAACxMpLLwS6d1n1QYwGHSnkMxOx72QCDOc6+O2n2XRMKGzM/Lzjf/w73YY8F0gLXPbg+sg5nOTTqf/FbqlrWSndi</EncryptedPassword>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>False|2022-05-19T21:46:53.7513432Z;False|2022-05-20T00:43:34.1946702+03:00;False|2022-05-20T00:40:03.8690853+03:00;False|2022-05-20T00:35:05.5626760+03:00;False|2022-05-20T00:33:07.8647197+03:00;False|2022-05-20T00:32:25.2110432+03:00;</History>
+  </PropertyGroup>
+</Project>

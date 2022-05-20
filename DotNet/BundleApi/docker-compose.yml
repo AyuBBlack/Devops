@@ -1,0 +1,63 @@
+version: '3.4'
+services:
+  postgresql:
+    container_name: postgresql
+    image: postgres
+    ports: 
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: "DB"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "123"
+    networks:
+      - mynetwork
+    restart: unless-stopped
+
+
+  bundleapi:
+    image: bundleapi
+    container_name: bundleapi
+    ports: 
+      - "8080:80"
+      - "60443:443"
+    environment:
+      DBserver: "postgresql"
+      DBport: "5432"
+      DBname: "DB"
+      DBuser: "postgres"
+      DBPassword: "123"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - mynetwork
+    restart: unless-stopped
+    depends_on:
+      - postgresql
+
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    restart: unless-stopped
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    networks:
+      - mynetwork
+
+
+  grafana: 
+    image: grafana/grafana
+    container_name: grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=P@ssw0rd
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
