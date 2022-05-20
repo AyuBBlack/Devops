@@ -2,6 +2,10 @@ version: '3.4'
 
 services:
   postgresql:
+<<<<<<< HEAD
+=======
+    container_name: postgresql
+>>>>>>> main-too
     image: ${DOCKER_REGISTRY-}postgres
     ports: 
       - "5433:5432"
@@ -11,9 +15,17 @@ services:
       POSTGRES_PASSWORD: "123"
 
   sqlbundle:
+<<<<<<< HEAD
    image: ${DOCKER_REGISTRY-}sqlbundle
    ports: 
     - "80:80"
+=======
+   container_name: App
+   image: ${DOCKER_REGISTRY-}sqlbundle
+   ports: 
+    - "8080:80"
+    - "60443:443"
+>>>>>>> main-too
    environment:
      DBserver: "postgresql"
      DBport: "5432"
@@ -23,4 +35,9 @@ services:
    build:
       context: .
       dockerfile: SqlBundle/Dockerfile
+<<<<<<< HEAD
 
+=======
+   depends_on:
+      - postgresql
+>>>>>>> main-too

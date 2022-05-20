@@ -11,7 +11,11 @@ builder.Services.AddDbContext<SqlContext>(opt =>
 {
     var config = builder.Configuration;
 
+<<<<<<< HEAD
     var server   = config["DBserver"] ?? "178.154.204.217";
+=======
+    var server   = config["DBserver"] ?? "51.250.69.110";
+>>>>>>> main-too
     var port     = config["DBport"] ?? "5432";
     var dbName   = config["DBname"] ?? "Bundle";
     var user     = config["DBuser"] ?? "postgres";
