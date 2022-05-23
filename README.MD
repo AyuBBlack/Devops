@@ -50,19 +50,20 @@ ___
 
 **.Net **MD** Homeworks on GIT**
 
-* [HomeWork_1](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_1.md)
-* [HomeWork_2](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_2.md)
-* [HomeWork_3](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_3.md)
-* [HomeWork_4](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_4.md)
-* [HomeWork_5](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_5.md)
+* [HomeWork_1 - Revers text ](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_1.md)
+* [HomeWork_2 - WinForm ](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_2.md)
+* [HomeWork_3 - Bundle PostgreSQL](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_3.md)
+* [HomeWork_4 - Application in Docker ](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_4.md)
+* [HomeWork_5 - Custom Logger ](https://gitlab.com/AyuBBlack/inno/blob/main/DotNet/HomeWorks/HW_5.md)
 
 **CICD **MD** Homeworks on GIT**
 
-* [HomeWork_1](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_1.md)
-* [HomeWork_2](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_2.MD)
-* [HomeWork_3](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_3.MD)
-* [HomeWork_4](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_4.MD)
-* [HomeWork_5](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_5.MD)
-* [HomeWork_6](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_6.MD)
-* [HomeWork_7](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_7.MD)
+* [HomeWork_1 - Gitlab CI](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_1.md)
+* [HomeWork_2 - Gitlab Docker](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_2.MD)
+* [HomeWork_3 - Docker Layers](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_3.MD)
+* [HomeWork_4 - Gitlab Deb packet](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_4.MD)
+* [HomeWork_5 - Prometheus ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_5.MD)
+* [HomeWork_6 - Prometheus, Grafana Alerts](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_6.MD)
+* [HomeWork_7 - Docker compose All Services](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_7.MD)
+* [HomeWork_8 - GitLab CI Terraform](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_8.MD)
 
