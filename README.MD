@@ -66,4 +66,4 @@ ___
 * [HomeWork_6 - Prometheus, Grafana Alerts](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_6.MD)
 * [HomeWork_7 - Docker compose All Services](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_7.MD)
 * [HomeWork_8 - GitLab CI Terraform](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_8.MD)
-
+* [HomeWork_9 - GitLab CI Terraform + Ansible ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_9.MD)
