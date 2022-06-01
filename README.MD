@@ -67,3 +67,6 @@ ___
 * [HomeWork_7 - Docker compose All Services](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_7.MD)
 * [HomeWork_8 - GitLab CI Terraform](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_8.MD)
 * [HomeWork_9 - GitLab CI Terraform + Ansible ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_9.MD)
+* [HomeWork_9 - GitLab CI Terraform + Ansible ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_9.MD)
+* [HomeWork_10 - Nexus ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_10.MD)
+* [HomeWork_11 - First Kubernetes Cluster ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_11.MD)
