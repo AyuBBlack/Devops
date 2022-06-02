@@ -70,3 +70,4 @@ ___
 * [HomeWork_9 - GitLab CI Terraform + Ansible ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_9.MD)
 * [HomeWork_10 - Nexus ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_10.MD)
 * [HomeWork_11 - First Kubernetes Cluster ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_11.MD)
+* [HomeWork_12 - Kubernetes - Dotner Api ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_12.MD)
