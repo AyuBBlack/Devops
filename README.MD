@@ -71,5 +71,5 @@ ___
 * [HomeWork_10 - Nexus ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_10.MD)
 * [HomeWork_11 - First Kubernetes Cluster ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_11.MD)
 * [HomeWork_12 - Kubernetes - Dotnet Api ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_12.MD)
-* [HomeWork_13 - Kubernetes - Ingress-Nginx ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HM_13.MD)
-* [HomeWork_14 - PostgreSQL - DB ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HM_14.MD)
+* [HomeWork_13 - Kubernetes - Ingress-Nginx ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_13.MD)
+* [HomeWork_14 - PostgreSQL - DB ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_14.MD)
