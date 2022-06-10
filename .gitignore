@@ -12,4 +12,4 @@ workspace.code-workspace
 DotNet/SqlBundle_Docker/.vs/SqlBundle/v17/
 *.GeneratedMSBuildEditorConfig.editorconfig
 *.editorconfig
-DotNet/BundleApi/SqlBundle/obj/Debug/net6.0/project.razor.json
+DotNet/BundleApi/SqlBundle/obj/Debug/
