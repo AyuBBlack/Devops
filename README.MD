@@ -78,4 +78,4 @@ ___
 * [HomeWork_14 - PostgreSQL - DB ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_14.MD)
 * [HomeWork_15 - PostgreSQL - DB_2 ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_15.MD)
 * [HomeWork_16 - PostgreSQL - Replication ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_15.MD)
-* [HomeWork_16 - S3 Backup Postgres ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_15.MD)
+* [HomeWork_17 - S3 Backup Postgres ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_17.MD)
