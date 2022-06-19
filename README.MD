@@ -67,7 +67,6 @@ ___
 * [HomeWork_7 - Docker compose All Services](https://gitlab.com/AyuBBlack/inno/blob/main/CICD/HW_7.MD)
 * [HomeWork_8 - GitLab CI Terraform](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_8.MD)
 * [HomeWork_9 - GitLab CI Terraform + Ansible ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_9.MD)
-* [HomeWork_9 - GitLab CI Terraform + Ansible ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_9.MD)
 
 **|Kuber|Postgres|Nexus| Homeworks on GIT**
 
