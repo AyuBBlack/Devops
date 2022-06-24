@@ -79,3 +79,4 @@ ___
 * [HomeWork_16 - PostgreSQL - Replication ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_15.MD)
 * [HomeWork_17 - S3 Backup Postgres ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_17.MD)
 * [HomeWork_18 - Nginx and HaProxy ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_18.MD)
+* [HomeWork_19 - Snyk and Trivy ](https://gitlab.com/AyuBBlack/inno/-/blob/main/CICD/HW_19.MD)
